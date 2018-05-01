@@ -1,0 +1,17 @@
+batch_size: 32
+decay_after: 5
+eval_freq: 2000000
+grad_clip: 5.0
+input_keep_prob: 0.5
+intra_keep_prob: 0.5
+lr: 1.0
+lr_decay: 0.8
+margin_ppl: 1
+num_epochs: 50
+num_layers: 2
+optimizer: sgd
+output_keep_prob: 0.5
+rnn_size: 650
+shared_embeddings: true
+state_keep_prob: 1.0
+timesteps: 35
